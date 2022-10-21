@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NewSearchView/app/bilibili_sqldatabase/src/main/res/layout/activity_main.xml" value="0.22037037037037038" />
+        <entry key="..\:/NewSearchView/app/fragment/src/main/res/layout-large/activity_main.xml" value="0.103125" />
+        <entry key="..\:/NewSearchView/app/fragment/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/NewSearchView/app/fragment/src/main/res/layout/another_right_fragment.xml" value="0.1375" />
+        <entry key="..\:/NewSearchView/app/fragment/src/main/res/layout/left_fragment.xml" value="0.21041666666666667" />
+        <entry key="..\:/NewSearchView/app/fragment/src/main/res/layout/right_gragment.xml" value="0.21041666666666667" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/drawable/btn_nine_item.xml" value="0.299" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/drawable/click_frame.xml" value="0.299" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/drawable/frame_custom.xml" value="0.299" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/drawable/isnull.xml" value="0.1845" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/activity_main.xml" value="0.28209459459459457" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/program_provide.xml" value="0.67" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/radio_addinfo.xml" value="0.25" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/radio_introduce.xml" value="0.18" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/radio_program_addinfo.xml" value="0.33" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/radio_provide.xml" value="0.67" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/select_function.xml" value="0.67" />
+        <entry key="..\:/NewSearchView/app/radiostation/src/main/res/layout/start_page.xml" value="0.3378623188405797" />
+        <entry key="..\:/NewSearchView/app/roomwrite/src/main/res/layout/activity_main.xml" value="0.43432971014492755" />
+        <entry key="..\:/NewSearchView/app/sqlitehelper/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/NewSearchView/app/sqlitehelper/src/main/res/layout/book.xml" value="0.22" />
+        <entry key="..\:/NewSearchView/app/sqllitpal/src/main/res/xml/litepal.xml" value="0.48007246376811596" />
+        <entry key="..\:/NewSearchView/app/src/main/res/drawable/shape_item.xml" value="0.193" />
+        <entry key="..\:/NewSearchView/app/src/main/res/layout/activity_main.xml" value="0.21422101449275363" />
+        <entry key="..\:/NewSearchView/app/src/main/res/layout/program_item.xml" value="0.21422101449275363" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/drawable/start_oval.xml" value="0.2435" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/program_provide.xml" value="0.26145833333333335" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/radio_addinfo.xml" value="0.26145833333333335" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/radio_introduce.xml" value="0.22864583333333333" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/radio_program_addinfo.xml" value="0.26145833333333335" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/radio_provide.xml" value="0.25" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/select_function.xml" value="0.26145833333333335" />
+        <entry key="..\:/radio/app/radiostation/src/main/res/layout/start_page.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="androidx.room.Dao" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

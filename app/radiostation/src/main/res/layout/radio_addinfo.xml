@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350sp"
+    android:layout_gravity="center"
+    android:layout_height="480sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Radio_All"
+        android:background="#ffff"
+        android:elevation="5dp"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/inputName"
+        android:layout_weight="1"
+        android:background="@drawable/btn_nine_item"
+        android:hint="请输入电台名称">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/inputRate"
+        android:layout_weight="1"
+        android:inputType="numberDecimal"
+        android:background="@drawable/btn_nine_item"
+        android:hint="请输入电台频率">
+
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/inputInfo"
+        android:background="@drawable/btn_nine_item"
+        android:layout_weight="3"
+        android:hint="请输入电台简介"
+        android:gravity="start">
+
+    </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_nine_item"
+        android:id="@+id/inputImage"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/img_4"
+       android:layout_marginStart="10dp"
+        />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

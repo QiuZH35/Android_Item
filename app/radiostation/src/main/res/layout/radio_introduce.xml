@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ddeeeeee"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:iconifiedByDefault="false"
+        android:id="@+id/radio_introduce_search"
+        app:queryHint="输入节目相关信息搜索">
+    </androidx.appcompat.widget.SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:background="#ffaaffff"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/radio_introduce_Image"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/radio_introduce_name"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                 android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="频率:"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                   />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:textSize="10sp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/radio_introduce_rate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="简介:"
+                    android:textSize="10sp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="10sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+
+                    android:id="@+id/radio_introduce_info"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/program_imageView"
+        >
+
+        <ListView
+            android:id="@+id/Radio_introduce_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/Btn_Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2sp"
+                android:layout_marginTop="2sp"
+                android:layout_marginEnd="2sp"
+                android:layout_marginBottom="2sp">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/action_add_radioData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/img_1" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/action_DeleteAll_radioData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/img_2" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/action_Update_radioData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/img_5" />
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+
+</LinearLayout>

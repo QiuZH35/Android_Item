@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="82sp"
+        android:layout_height="130sp"
+        android:elevation="3sp"
+        android:layout_margin="3sp"
+        android:background="#ffff"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="70sp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:elevation="2sp"
+            android:layout_gravity="center"
+            android:text="修改"
+            android:background="@mipmap/img_3"
+            android:layout_margin="2sp"
+
+            android:id="@+id/Update_function"/>
+
+        <ImageButton
+            android:layout_width="75sp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="删除"
+            android:background="@mipmap/img_2"
+            android:layout_gravity="center"
+            android:elevation="2sp"
+            android:layout_margin="2sp"
+            android:id="@+id/Delete_function"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
